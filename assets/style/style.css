@@ -39,12 +39,20 @@ justify-content: space-between;
 }
 
 /* Main */
-div img{
-width: 400px;
-position: absolute;
+.product img{
+  display: inline-block;
+}
+.product img{
+  cursor: pointer;
+  width: 465px;
+  height: 670px;
+}
 
-}
 .foto1{
-z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+
 /* Footer */
